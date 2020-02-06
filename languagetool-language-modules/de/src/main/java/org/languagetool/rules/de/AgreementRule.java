@@ -89,6 +89,16 @@ public class AgreementRule extends Rule {
   private static final AnalyzedToken[] ZUR_REPLACEMENT = {new AnalyzedToken("der", "ART:DEF:DAT:SIN:FEM", "der")};
 
   private static final List<List<PatternToken>> ANTI_PATTERNS = Arrays.asList(
+    Arrays.asList(  // "jenes Weges, den die Tausenden Juden 1945 ..."
+      token("die"),
+      token("Tausenden"),
+      posRegex("SUB:.*PLU.*")
+    ),
+    Arrays.asList(  // "was sein Klient für ein Mensch sei"
+      new PatternTokenBuilder().token("was").setSkip(2).build(),
+      token("für"),
+      token("ein")
+    ),
     Arrays.asList(  // "wird das schwere Konsequenzen haben"
       token("das"),
       token("schwere"),
@@ -506,6 +516,34 @@ public class AgreementRule extends Rule {
     Arrays.asList(
       new PatternTokenBuilder().posRegex("VER:.*[1-3]:.+").setSkip(1).build(),
       csToken("vermehrt")
+    ),
+    Arrays.asList( // In den Ruhr Nachrichten
+      csToken("Ruhr"),
+      csToken("Nachrichten")
+    ),
+    Arrays.asList(
+      csToken("Joint"),
+      tokenRegex("Ventures?|Cares?")
+    ),
+    Arrays.asList(
+      csToken("Premier"),
+      csToken("League")
+    ),
+    Arrays.asList(
+      csToken("Sales"),
+      tokenRegex("Agent")
+    ),
+    Arrays.asList(
+      csToken("Hammer"),
+      tokenRegex("Stra(ß|ss)e")
+    ),
+    Arrays.asList( // https://www.duden.de/rechtschreibung/Personal_Trainer
+      csToken("Personal"),
+      tokenRegex("Trainers?")
+    ),
+    Arrays.asList( // Ich wollte erstmal allen Hallo sagen.
+      token("Hallo"),
+      new PatternTokenBuilder().csToken("sagen").matchInflectedForms().build()
     )
   );
 
@@ -574,11 +612,18 @@ public class AgreementRule extends Rule {
     "Prozent",   // Plural "Prozente", trotzdem ist "mehrere Prozent" korrekt
     "Gramm",
     "Kilogramm",
+    "Chief", // Chief Excutive Officer
+    "Carina", // Name
     "Meter", // Das Meter (Objekt zum Messen)
     "Boots", // "Die neuen Boots" (englisch Stiefel)
     "Taxameter", // Beides erlaubt "Das" und "Die"
     "Bild", // die Bild (Zeitung)
-    "Uhr"   // "um ein Uhr"
+    "Emirates", // "Mit einem Flug der Emirates" (Fluggesellschaft)
+    "Uhr",   // "um ein Uhr"
+    "cm", // "Die letzten cm" können
+    "km",
+    "Nr",
+    "RP" // "Die RP (Rheinische Post)"
   ));
 
   public AgreementRule(ResourceBundle messages, German language) {

@@ -77,8 +77,11 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
   private static final Map<Pattern, Function<String,List<String>>> ADDITIONAL_SUGGESTIONS = new HashMap<>();
   static {
     put("lieder", w -> Arrays.asList("leider", "Lieder"));
+    put("zuviel", "zu viel");
     put("abgekatertes", "abgekartetes");
+    put("wiederspiegelt", "widerspiegelt");
     put("Komplexheit", "Komplexität");
+    put("unterschiedet", "unterscheidet");
     put("einzigst", "einzig");
     put("Einzigst", "Einzig");
     put("geschumpfen", "geschimpft");
@@ -156,6 +159,9 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     putRepl("Geschwindlichkeit(en)?", "lich", "ig");
     putRepl("Jänners?", "Jänner", "Januar");
     put("check", "checke");
+    put("Rückrad", "Rückgrat");
+    put("ala", "à la");
+    put("Ala", "À la");
     put("Reinfolge", "Reihenfolge");
     put("Schloß", "Schloss");
     put("Investion", "Investition");
@@ -192,6 +198,7 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     put("veräht", "verrät");
     put("helfte", "half");
     put("helften", "halfen");
+    put("lad", "lade");
     put("befehlte", "befahl");
     put("befehlten", "befahlen");
     put("angelügt", "angelogen");
@@ -403,7 +410,6 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     put("[kK]affeeteria", "Cafeteria");
     put("[kK]affeeterien", "Cafeterien");
     put("berücksicht", "berücksichtigt");
-    put("nix", "nichts");
     put("must", "musst");
     put("kaffe", "Kaffee");
     put("zetel", "Zettel");
@@ -488,13 +494,23 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     put("geschmelt?zt", "geschmolzen");
     put("gewunschen", "gewünscht");
     put("bittete", "bat");
+    put("nehm", "nimm");
     put("möchst", "möchtest");
+    put("Win", "Windows");
     put("anschein[dt]", "anscheinend");
     put("Subvestitionen", "Subventionen");
     put("angeschaffen", "angeschafft");
     put("Rechtspruch", "Rechtsspruch");
+    put("Second-Hand", "Secondhand");
+    put("[jJ]ahundert", "Jahrhundert");
+    put("Gesochse", "Gesocks");
+    put("Vorraus", "Voraus");
+    put("[vV]orgensweise", "Vorgehensweise");
+    put("[kK]autsch", "Couch");
     put("guterletzt", "guter Letzt");
     putRepl("[zZ]uguterletzt", "guterletzt", " guter Letzt");
+    putRepl("Nootbooks?", "Noot", "Note");
+    putRepl("[vV]ersendlich(e[mnrs]?)?", "send", "sehent");
     putRepl("[uU]nfäh?r(e[mnrs]?)?", "fäh?r", "fair");
     putRepl("[mM]edikatös(e[mnrs]?)?", "ka", "kamen");
     putRepl("(ein|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf)undhalb", "und", "ein");
@@ -534,6 +550,7 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     putRepl("[aA]leine", "l", "ll");
     putRepl("Kaput", "t", "tt");
     putRepl("[fF]estell(s?t|en?)", "est", "estst");
+    putRepl("[Ee]igtl", "igtl", "igtl.");
     putRepl("(Baden-)?Würtenbergs?", "Würten", "Württem");
     putRepl("Betriebsratzimmer[ns]?", "rat", "rats");
     putRepl("Rechts?schreibungsfehler[ns]?", "Rechts?schreibungs", "Rechtschreib");
@@ -783,8 +800,9 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     putRepl("Böhen?$", "h", "");
     putRepl("Aufständige[mnr]?$", "ig", "isch");
     putRepl("aufständig(e[mnrs]?)?$", "ig", "isch");
-    put("aufgrundedessen", "aufgrunde dessen");
+    put("aufgrundedessen", "aufgrund dessen");
     put("Amalgane", "Amalgame");
+    put("Kafe", w -> Arrays.asList("Kaffee", "Café"));
     put("Dammbock", w -> Arrays.asList("Dambock", "Rammbock"));
     put("Dammhirsch", "Damhirsch");
     put("Fairnis", "Fairness");
@@ -802,7 +820,8 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
     putRepl("rethorisch(ere|ste)[mnrs]?$", "rethor", "rhetor");
     putRepl("repetativ(ere|ste)[mnrs]?$", "repetat", "repetit");
     putRepl("voluptös(e|ere|este)?[mnrs]?$", "tös", "tuös");
-    putRepl("geblogt(e[mnrs]?)?$", "g", "gg");
+    putRepl("[pP]flanzig(e[mnrs]?)?", "ig", "lich");
+    putRepl("geblogt(e[mnrs]?)?$", "gt", "ggt");
   }
 
   private static void putRepl(String wordPattern, String pattern, String replacement) {
@@ -972,7 +991,7 @@ public class GermanSpellerRule extends CompoundAwareHunspellRule {
           BufferedReader variantReader = null;
           if (languageVariantPlainTextDict != null && !languageVariantPlainTextDict.isEmpty()) {
             InputStream variantStream = JLanguageTool.getDataBroker().getFromResourceDirAsStream(languageVariantPlainTextDict);
-            variantReader = new ExpandingReader (new BufferedReader(new InputStreamReader(variantStream, UTF_8)));
+            variantReader = new ExpandingReader(new BufferedReader(new InputStreamReader(variantStream, UTF_8)));
           }
           return new MorfologikMultiSpeller(morfoFile, new ExpandingReader(br), paths,
             variantReader, languageVariantPlainTextDict, userConfig != null ? userConfig.getAcceptedWords(): Collections.emptyList(), MAX_EDIT_DISTANCE);

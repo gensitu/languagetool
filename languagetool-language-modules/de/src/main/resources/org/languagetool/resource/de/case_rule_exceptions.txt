@@ -33,6 +33,7 @@ Berufliches? Gymnasium
 Brandenburgischen[ns]? Landesamt(es|s)?|Staats.*
 Bayerische[nrs]? Staats.+|Verdienst(medaillen?|ordens?)|Rundfunks?|Ministerpräsident(en)?|Motorenwerken?|Ver(waltungsgericht|fassung).*|Hof|Walds?|Land(tag|esamte?)s?|Landesärztekammer
 (Bekennend|Evangelisch|Katholisch)en? Kirche
+Berliner Modells?
 Bibliotheque Nationale
 Bitter Lemon
 Blaue[nr]? Reiters?|Band(s|es)?|Planet(en)?|Brief[es]?|Moschee|Enzians?
@@ -42,6 +43,7 @@ Botanische[rn]? Gartens?
 Braune[rn]? Zwerge?s?
 Brandenburgischen? Konzert[es]n?
 Britischen? Inseln
+Bruce Allmächtig
 Bundeskanzlers? Kurz
 Bundesminister(s?|iums?|in) für Arbeit und Soziales
 Bürgerliche[ns]? Gesetzbuche?s?
@@ -83,12 +85,14 @@ Erste[rnm]? (Weltkriege?s?|Bürgermeisters?|Offizier[es]?)
 Erste[rnm]?|Zweite[rnm]?|Dritten[rnm]?|Vierte[rnm]? Kreuzzug(es|s)?
 Essener
 Europäische[mnrs]? Fonds|(Atomg|G)emeinschaft|Parlamente?s?|Union|Gerichtshof(es|s)?|Patentamt(es|s)?|Wirtschaftsgemeinschaft|Wirtschaftsraum(es|s)?|Kommission|Rat(es|s)?|Zentralbank|Freiwilligendienst|Menschenrechtskonvention|Agentur|Arzneimittel-?[aA]gentur|Volkspartei|Haftbefehls?|Kulturhauptstadt|Währungsunion|Währungsfonds
+Evangelischen? Hochschule Berlin
 Ewige[rn]? Stadt
 Exxon Mobils?
 (Foreign|World|Fair|European|EU) Trade
 Falsche[rn]? Hasen?
 False (Positives?|Negatives?)
 Familienangehörigen
+Fantastischen (Vier|4)
 Fast Food
 Ferne[rn]? Ostens?
 Fleißige[ns]? Lieschens?
@@ -102,6 +106,7 @@ Fränkische[nr]? Schweiz
 Friedliche[nr]? Revolution
 Funke Digital
 Gears of Wars?
+Geeintes Russland
 Geheimen? Staatspolizei
 Gelben? Karten?|Trikots?|Rüben?|Meer(e?s)?
 Gelbe[nr]? Fluss(es)?|Engel[ns]?|Seiten?|Sacks?|Tonnen?
@@ -112,8 +117,8 @@ Gleich und Gleich
 Gleicher unter Gleichen
 Gleiches mit Gleichem
 Global Site Tag
-Golden (Globes?|Delicious)
-Goldene[nr]? Schnitt|Bulle|Palme|Bär(en)?|Löwen?|Himbeeren?
+Golden (Globes?|Delicious|Retrievers?)
+Goldene[nr]? Schnitt|Bulle|Palme|Bär(en)?|Löwen?|Himbeeren?|Windbeuteln?
 Goldenen Schnitte?s|Zwanzigern?
 Goldene Zwanziger
 Goldene[sn]? Zeitalters?|(Ehren|Verdienst)zeichens?
@@ -140,19 +145,22 @@ Heiligen Römischen Reich|Reiche?s
 Heilige Römische Reich
 Heiliges Römisches Reich
 Helvetica Neue
-Hessischen? Kultusministeriums?|Rundfunks?|Berglands?
+Hessischen? Kultusministeriums?|Rundfunks?|Berglands?|Hochschule
 Hin und Her
+Hoang An
 Hohe[nr]? Rat(e?s)?|Kommissars?|Vertreters?|Tatra|See
 Hohen? (Tauern|Leier)
 Hotel Vier Jahreszeiten
 Hotel Imperial
 Human Computer (Interaction|Interface)s?
-Human Resources?
+Human (Resource|Interface|Interaction|Engineering|Counter|Relation)s?
+Human Engineered Software
 [iI]m Großen und Ganzen
 [iI]m Guten wie im Schlechten
 ([iI]m|das) Hier und Jetzt
 [iI]m Innere?n (eine[rs]|de[rs])
 [iI]m Nirgendwo|Weiteren|Schweiße
+Imperial Colleges?
 Indische[nr]? Ozeans?
 Inneren? Medizin|Gürtel|Mongolei
 Inoffizielle[rn]? Mitarbeiter[sn]?
@@ -160,20 +168,23 @@ Institut für .*
 International Airlines
 International Schools?
 Internationalen? Filmfestspielen?|Atomenergie(-Organisation|behörde|organisation)|Fernmeldeunion|Komitees?|.*tag|Raumstation|Energieagentur
-Internationale[mnr]? Währungsfonds|(Seeg|Strafg|Sportg|Militärg|G)erichtshof(e?s)?|Fonds|Klassifikation
+Internationale[mnr]? Währungsfonds|(Seeg|Strafg|Sportg|Militärg|G)erichtshof(e?s)?|Fonds|Klassifikation|Flughafen
 Internationale[mnr]? Agentur für
 Internationale[ns]? Astronomischen?|Olympische[ns]?|Komitees?|Filmfestivals?|Einheitensystems?
 Internationale[rn]? (Automobil-Ausstellungs|Automobilausstellung)s?
 Intransitive[rn]s Copys?
+Iranischen Revolutionsgarden
 Iron Man
 Islamische[rn]? (Staat|Republik)
 Islamischen Staate?s
 Italienische[nr]? Republik|Salat
-Japanische[ns]? Alpen|Meer
+Japanische[ns]? Alpen|Meer(s|es)?
+Joachim Sauer
 Jugend Forscht
 Jung und Alt
 Jung Hoseok
 Jungen? Digitalen? Wirtschafts?
+Jüdischen? Gemeinde
 Jüngste[ns]? Tags?|Gerichts?
 Kaps? der Guten Hoffnung
 Kalte[mnr]? Krieg(e?s)?
@@ -183,6 +194,7 @@ Kaukasische[nr]? Kreidekreis
 kaum Neues
 Kleinen? Antillen|Anfragen?|Zeitung|Belts?
 Kleine[nr]? (Bär|Tiergarten)
+Kleiner Perkins
 (Kommunist|Sozialdemokrat)ischen? Partei
 Königlichen? (Akademie|Hoheit)
 [lL]a Hautes?
@@ -238,7 +250,7 @@ Real Bamako|Madrid|Estate|Time
 Regierenden Bürgermeisters
 Regierende[mnr]? Bürgermeister(in)?
 Regular Fit
-Rheinische[ns]? Post|Schiefergebirges?|Straße
+Rheinische[ns]? Post|Schiefergebirges?|Straße|Braunkohlereviers?
 Romantischen? Straße
 Römischen Reich Deutscher Nation
 Römischen Reiche?s|Verträgen?
@@ -254,6 +266,7 @@ Sächsische[nr]? Schweiz|Staats.+
 Salvenach
 Sang und Klang
 Sanitär
+Schlesische[rnm]? Krieg
 Schriftgelehrter?
 Schwäbisch Halls?
 Schwarzer? Bretter|Löcher|Körper|Kontinent|Witwe|Johannisbeeren?|Holunder|Peter
@@ -270,6 +283,7 @@ Smart Cit(y|ies)|Cards?|Cabrios?|Homes?|Phones?|Watch(es)?|Meters?|Money|Tarif|T
 SK Rapid
 Skodas? Superbs?
 Sozialistischen? Sowjetrepublik(en)?|(Einheits)?[pP]artei
+Sozialdemokratischen? Arbeiterpartei
 Spanischen? Grippe|Erbfolgekriegs?|Bürgerkriegs?|Niederlanden?|Treppe|Fliege|Reitschule
 Speis und Trank
 Spring Boot
@@ -281,10 +295,11 @@ Statistische[rn]?|Theoretische[rn]? Physik
 Stiftung Preußischer?
 Steinerne[sn]? Meers?|Brücke
 Stiege
-Süddeutsche[nr]? (Zeitung|Verlags?)
+Süddeutsche[nr]? (Zeitung|Verlags?|Rundfunks?)
 Südlichen? Kalkalpen
 Süßes oder Saures
 Superman
+Super Tuesdays?
 Syrischen? Beobachtungsstelle
 Technische[ns]? Hilfswerks?
 Technischen? (Fachh|H)ochschulen?|Universität(en)?
@@ -312,7 +327,7 @@ Weh und Ach
 Weiße[nr]? Zwerge?|Sonntags?|Tod
 Wenn und Aber
 Westfälischen? Frieden?|Friedens|Pforte|Bucht
-Wilde[nr]? Westens?
+Wilde[nr]? Westens?|Kaisers?
 Will & Grace
 Windows Live
 Wissenschaftlichen? Dienst(e?s)?

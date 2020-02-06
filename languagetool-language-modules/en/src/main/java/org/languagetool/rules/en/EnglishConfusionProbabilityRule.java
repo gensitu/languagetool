@@ -58,7 +58,23 @@ public class EnglishConfusionProbabilityRule extends ConfusionProbabilityRule {
       "G Suite",
       "paste event",
       "need to know",
-      "your look is" // Really, your look is
+      "of you not",   // "It would be wiser of you not to see him again."
+      "of her element",
+      "very grateful of you",
+      "your use case",
+      "he's", // vs. the's
+      "he’s",
+      "they're",
+      "they’re",
+      "your look is", // Really, your look is
+      "have you known",// vs. "know"
+      "have I known",// vs. "know"
+      "had I known",
+      "had you known",
+      "his fluffy butt",
+      "it's now better", // vs. no
+      "it’s now better", // vs. no
+      "it is now better" // vs. no
     );
     
   public EnglishConfusionProbabilityRule(ResourceBundle messages, LanguageModel languageModel, Language language) {

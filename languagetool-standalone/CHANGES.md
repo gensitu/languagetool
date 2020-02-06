@@ -6,9 +6,15 @@
   * Added initial support for Arabic, contributed by Sohaib Afifi
     (https://github.com/languagetool-org/languagetool/pull/2219)
 
+#### Irish
+  * Added initial support for Irish, contributed by Jim Regan
+    (https://github.com/languagetool-org/languagetool/pull/2260)
+
 #### German
   * added and improved rules
-
+  * `compounds.txt` now automatically expands `ß` to `ss` when using German (Switzerland)
+  * German `spelling.txt` now supports `prefix_verb` syntax like `vorüber_eilen` so
+    the speller will accept all forms of "eilen" prefixed by "vorüber" 
 
 ## 4.8 (released 2019-12-27)
 

@@ -245,6 +245,7 @@ anticized
 anticizes
 anticizing
 antitheistic
+anymore
 aphetise
 aphetised
 aphetises
@@ -845,6 +846,8 @@ colonizable
 colonizationist
 colonizationists
 colourability
+commenter
+commenters
 communalisation
 communalise
 communalised
@@ -2357,6 +2360,10 @@ gutturalization
 gutturalizations
 gyrostabiliser
 gyrostabilisers
+handwash
+handwashed
+handwashes
+handwashing
 Hansardise
 Hansardised
 Hansardises
@@ -2714,6 +2721,7 @@ informatized
 informatizes
 informatizing
 inoculability
+instrumentalisation
 intellectualisation
 intellectualiser
 intellectualisers
@@ -3169,6 +3177,7 @@ memorializers
 memorializes
 memorializing
 memorisable
+mentalisation
 mentalise
 mentalised
 mentalises
@@ -3564,6 +3573,7 @@ nodalise
 nodalised
 nodalises
 nodalising
+noise-cancelling
 nomadisation
 nomadise
 nomadised
@@ -3759,6 +3769,8 @@ overfertilize
 overfertilized
 overfertilizes
 overfertilizing
+overgeneralisation
+overgeneralisations
 overglamorise
 overglamorised
 overglamorises
@@ -3847,6 +3859,7 @@ paganize
 paganized
 paganizes
 paganizing
+palaeogeography
 palletiser
 palletisers
 palletizer
@@ -4358,6 +4371,8 @@ previsualising
 previsualized
 previsualizes
 previsualizing
+proceduralisation
+proceduralisations
 proctorise
 proctorised
 proctorises
@@ -5029,6 +5044,7 @@ scenarize
 scenarized
 scenarizes
 scenarizing
+scenographical
 schismatise
 schismatised
 schismatises

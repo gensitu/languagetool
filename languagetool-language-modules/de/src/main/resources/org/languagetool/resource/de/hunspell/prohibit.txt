@@ -4650,7 +4650,6 @@ Elementartteilchen/S
 Erdclan
 Erdiran/S
 Erdklan
-Erdogan/S
 Erdoman/S
 Erdopa/S
 Erdorgan/S
@@ -6348,3 +6347,7 @@ Kreisläuse/N
 Busgelder
 Fließdecke/N
 Fließjacke/N
+Haustürschlüsse/N
+Innenasche/N
+Sonderhaft/S
+Wok-Shop/S

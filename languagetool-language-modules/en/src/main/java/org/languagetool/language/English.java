@@ -210,6 +210,7 @@ public class English extends Language implements AutoCloseable {
         //new OpenNMTRule(),     // commented out because of #903
         new ParagraphRepeatBeginningRule(messages, this),
         new PunctuationMarkAtParagraphEnd(messages, this),
+        new PunctuationMarkAtParagraphEnd2(messages, this),
         // specific to English:
         new SpecificCaseRule(messages),
         new EnglishUnpairedBracketsRule(messages, this),
@@ -231,7 +232,7 @@ public class English extends Language implements AutoCloseable {
   }
 
   @Override
-  public List<Rule> getRelevantLanguageModelRules(ResourceBundle messages, LanguageModel languageModel) throws IOException {
+  public List<Rule> getRelevantLanguageModelRules(ResourceBundle messages, LanguageModel languageModel, UserConfig userConfig) throws IOException {
     return Arrays.asList(
         new EnglishConfusionProbabilityRule(messages, languageModel, this),
         new EnglishNgramProbabilityRule(messages, languageModel, this)
@@ -276,14 +277,17 @@ public class English extends Language implements AutoCloseable {
       case "WRONG_APOSTROPHE":          return 5;
       case "LIGATURES":                 return 1;   // prefer over spell checker
       case "APPSTORE":                  return 1;   // prefer over spell checker
+      case "INCORRECT_CONTRACTIONS":    return 1;   // prefer over EN_CONTRACTION_SPELLING
       case "DONT_T":                    return 1;   // prefer over EN_CONTRACTION_SPELLING
       case "WHATS_APP":                 return 1;   // prefer over EN_CONTRACTION_SPELLING
       case "NON_STANDARD_COMMA":        return 1;   // prefer over spell checker
       case "NON_STANDARD_ALPHABETIC_CHARACTERS":        return 1;   // prefer over spell checker
+      case "WONT_CONTRACTION":          return 1;   // prefer over WONT_WANT
       case "PROFANITY":                 return 5;   // prefer over spell checker
       case "RUDE_SARCASTIC":            return 6;   // prefer over spell checker
       case "CHILDISH_LANGUAGE":         return 8;   // prefer over spell checker
       case "EN_DIACRITICS_REPLACE":     return 9;   // prefer over spell checker
+      case "PRP_MD_NN":                 return -1;  // prefer other more specific rules (e.g. MD_ABLE, WONT_WANT)
       case "NON_ANTI_PRE_JJ":           return -1;  // prefer other more specific rules
       case "DT_JJ_NO_NOUN":             return -1;  // prefer other more specific rules (e.g. THIRD_PARTY)
       case "AGREEMENT_SENT_START":      return -1;  // prefer other more specific rules
@@ -297,10 +301,12 @@ public class English extends Language implements AutoCloseable {
       case "ADVERB_OR_HYPHENATED_ADJECTIVE": return -1; // prefer other more specific rules (with suggestions)
       case "MISSING_PREPOSITION":       return -1;  // prefer other more specific rules (with suggestions)
       case "PRP_RB_NO_VB":              return -1;  // prefer other more specific rules (with suggestions)
+      case "BE_TO_VBG":                 return -1;  // prefer other more specific rules (with suggestions)
       case "NON3PRS_VERB":              return -1;  // prefer other more specific rules (with suggestions)
+      case "DID_FOUND_AMBIGUOUS":       return -1;  // prefer other more specific rules (e.g. TWO_CONNECTED_MODAL_VERBS)
+      case "BE_I_BE_GERUND":            return -1;  // prefer other more specific rules (with suggestions)
       case "BEEN_PART_AGREEMENT":       return -2;  // prefer other more specific rules (e.g. VARY_VERY, VB_NN)
       case "A_INFINITIVE":              return -2;  // prefer other more specific rules (with suggestions, e.g. PREPOSITION_VERB)
-      case "I_MOVING":                  return -2;  // prefer other more specific rules (e.g. PRP_VBG)
       case "HE_VERB_AGR":               return -2;  // prefer other more specific rules (e.g. PRP_VBG)
       case "PRONOUN_NOUN":              return -2;  // prefer other rules (e.g. PRP_VB)
       case "MORFOLOGIK_RULE_EN_US":     return -10;  // more specific rules (e.g. L2 rules) have priority

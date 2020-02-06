@@ -184,6 +184,17 @@ public final class StringTools {
   }
 
   /**
+   * Whether the first character of <code>str</code> is an uppercase character.
+   * @since 4.9
+   */
+  public static boolean startsWithLowercase(String str) {
+    if (isEmpty(str)) {
+      return false;
+    }
+    return Character.isLowerCase(str.charAt(0));
+  }
+
+  /**
    * Return <code>str</code> modified so that its first character is now an
    * uppercase character. If <code>str</code> starts with non-alphabetic
    * characters, such as quotes or parentheses, the first character is 
@@ -486,6 +497,7 @@ public final class StringTools {
    * Loads file, ignoring comments (lines starting with {@code #}).
    * @param path path in resource dir
    * @since 4.6
+   * @deprecated use DataBroker#getFromResourceDirAsLines(java.lang.String) instead
    */
   public static List<String> loadLines(String path) {
     InputStream stream = JLanguageTool.getDataBroker().getFromResourceDirAsStream(path);
@@ -502,7 +514,7 @@ public final class StringTools {
         l.add(line);
       }
     } catch (IOException e) {
-      throw new RuntimeException("Could not load coherency data from " + path, e);
+      throw new RuntimeException("Could not load data from " + path, e);
     }
     return Collections.unmodifiableList(l);
   }

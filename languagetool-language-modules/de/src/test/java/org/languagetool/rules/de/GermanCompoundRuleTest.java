@@ -20,23 +20,24 @@ package org.languagetool.rules.de;
 
 import java.io.IOException;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.languagetool.JLanguageTool;
 import org.languagetool.Languages;
 import org.languagetool.TestTools;
 import org.languagetool.rules.AbstractCompoundRuleTest;
 
-public class CompoundRuleTest extends AbstractCompoundRuleTest {
-
-  @Before
-  public void setUp() throws Exception {
-    lt = new JLanguageTool(Languages.getLanguageForShortCode("de-DE"));
-    rule = new CompoundRule(TestTools.getMessages("de"));
-  }
+public class GermanCompoundRuleTest extends AbstractCompoundRuleTest {
 
   @Test
   public void testRule() throws IOException {
+    lt = new JLanguageTool(Languages.getLanguageForShortCode("de-DE"));
+    rule = new GermanCompoundRule(TestTools.getMessages("de"));
+    runTests();
+    rule = new SwissCompoundRule(TestTools.getMessages("de"));
+    runTests();
+  }
+  
+  private void runTests() throws IOException {
     // correct sentences:
     check(0, "Eine tolle CD-ROM");
     check(0, "Eine tolle CD-ROM.");
@@ -107,6 +108,7 @@ public class CompoundRuleTest extends AbstractCompoundRuleTest {
     check(0, "Aggregatzustand");
     check(0, "Aggregat-Zustand");
     check(1, "Aggregat Zustand", "Aggregatzustand");
+    check(1, "Billard Kugel", "Billardkugel");
   }
   
 }

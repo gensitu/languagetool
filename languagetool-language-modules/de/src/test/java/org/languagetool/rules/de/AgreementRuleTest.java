@@ -121,6 +121,8 @@ public class AgreementRuleTest {
     assertGood("Er hat einen Post veröffentlicht.");
     assertGood("Eine lückenlose Aufklärung sämtlicher physiologischer Gehirnprozesse");
     assertGood("Sie fragte verwirrt: „Ist das Zucker?“");
+    assertGood("Er versuchte sich vorzustellen, was sein Klient für ein Mensch sei.");
+    assertGood("Sie legen ein Teilstück jenes Weges zurück, den die Tausenden Juden 1945 auf sich nehmen mussten.");
 
     assertGood("Wir machen das Januar.");
     assertGood("Wir teilen das Morgen mit.");
@@ -183,6 +185,15 @@ public class AgreementRuleTest {
     assertGood("Die Zeitdauer, während der Wissen nützlich bleibt, wird kürzer.");
     assertGood("Es sollte nicht viele solcher Bilder geben");
     assertGood("In den 80er Jahren.");
+    assertGood("Hast du etwas das Carina machen kann?");
+    assertGood("Ein Artikel in den Ruhr Nachrichten.");
+    assertGood("Ich wollte nur allen Hallo sagen.");
+    assertGood("Ich habe deshalb allen Freund*innen Bescheid gegeben.");   // Gendersternchen, https://github.com/languagetool-org/languagetool/issues/2417
+    assertGood("Ich habe deshalb allen Freund_innen Bescheid gegeben.");
+    assertGood("Ich habe deshalb allen Freund:innen Bescheid gegeben.");
+    assertGood("Sein*e Mitarbeiter*in ist davon auch betroffen.");
+    assertGood("Jede*r Mitarbeiter*in ist davon betroffen.");
+    assertGood("Alle Professor*innen");
 
     // relative clauses:
     assertGood("Das Recht, das Frauen eingeräumt wird.");

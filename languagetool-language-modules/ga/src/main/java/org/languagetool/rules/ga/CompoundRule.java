@@ -1,6 +1,6 @@
-/* LanguageTool, a natural language style checker 
+/* LanguageTool, a natural language style checker
  * Copyright (C) 2006 Daniel Naber (http://www.danielnaber.de)
- * 
+ *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -16,49 +16,45 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301
  * USA
  */
-package org.languagetool.rules.de;
+package org.languagetool.rules.ga;
 
 import java.io.IOException;
 import java.util.ResourceBundle;
 
 import org.languagetool.rules.AbstractCompoundRule;
-import org.languagetool.rules.Categories;
 import org.languagetool.rules.CompoundRuleData;
 import org.languagetool.rules.Example;
 
 /**
- * Checks that compounds are not written as separate words. The supported compounds are loaded
- * from {@code /de/compounds.txt} and {@code /de/compounds-cities.txt} in the resource directory.
- * 
- * @author Daniel Naber
+ * Checks that compounds (if in the list) are not written as separate words.
  */
-public class CompoundRule extends AbstractCompoundRule {
+public final class CompoundRule extends AbstractCompoundRule {
 
-  private static final CompoundRuleData compoundData = new CompoundRuleData("/de/compounds.txt", "/de/compound-cities.txt");
- 
+  private static final CompoundRuleData compoundData = new CompoundRuleData("/ga/compounds.txt");
+
   public CompoundRule(ResourceBundle messages) throws IOException {
     super(messages,
-            "Dieses Wort wird mit Bindestrich geschrieben.",
-            "Dieses Wort wird zusammengeschrieben.",
-            "Diese Wörter werden zusammengeschrieben oder mit Bindestrich getrennt.",
-            "Zusammenschreibung von Wörtern");
-    super.setCategory(Categories.COMPOUNDING.getCategory(messages));
-    addExamplePair(Example.wrong("Wenn es schlimmer wird, solltest Du zum <marker>HNO Arzt</marker> gehen."),
-                   Example.fixed("Wenn es schlimmer wird, solltest Du zum <marker>HNO-Arzt</marker> gehen."));
+            "Litrítear an focal seo le fleiscín de ghnáth.",
+            "Litrítear an focal seo mar fhocal amháin de ghnáth.",
+            "Litrítear an nath seo mar fhocal amháin nó le fleiscín.",
+            "Fadhb leis an bhfleiscíniú");
+    addExamplePair(Example.wrong("Tá <marker>mí úsáid</marker> fhisiciúil i gceist."),
+                   Example.fixed("Tá <marker>mí-úsáid</marker> fhisiciúil i gceist."));
   }
 
   @Override
   public String getId() {
-    return "DE_COMPOUNDS";
+    return "GA_COMPOUNDS";
   }
 
   @Override
   public String getDescription() {
-    return "Zusammenschreibung von Wörtern, z. B. 'CD-ROM' statt 'CD ROM'";
+    return "Focail fhleiscínithe, e.g., Moltar 'ró-úsáid' seachas 'ró úsáid'";
   }
 
   @Override
   protected CompoundRuleData getCompoundRuleData() {
     return compoundData;
   }
+
 }

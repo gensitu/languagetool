@@ -42,6 +42,8 @@ Uncle Ben's
 Uncle Ben’s
 Papa John's
 Papa John’s
+America's Cup
+America’s Cup
 New Jersey
 Jersey City
 Baltic Sea
@@ -173,9 +175,6 @@ Pink Panther
 The Dark Knight Rises
 The Dark Knight
 DC Comics
-Fox News
-Fox NFL
-Fox Sports
 Capital One
 Pizza Hut
 Bed Bath & Beyond
@@ -225,6 +224,7 @@ Vanity Fair
 Madison Avenue
 Wharton School
 German Shepherd
+German Shepherds
 Grand Central Terminal
 Lincoln Square
 Hudson River
@@ -363,7 +363,7 @@ Smith and Wesson
 South African Airways
 Eastern Airways
 Western Union
-Southern Comfort
+# Southern Comfort
 Red Bull
 Silver Dollar City
 Call of Duty
@@ -434,6 +434,8 @@ Forrest Gump
 The Silence of the Lambs
 Pulp Fiction
 #The Great Wall
+Las Vegas
+Los Angeles
 Los Angeles Times
 Houston Chronicle
 Chicago Tribune
@@ -504,6 +506,9 @@ Stinson Beach
 Redwood City
 Half Moon Bay
 Daly City
+Daly College
+Daly County
+Daly River
 Garden City
 Staten Island
 White Plains
@@ -512,6 +517,7 @@ Middletown Township
 New Brunswick
 Shelter Island
 Fire Island
+Sandy Hook Elementary School
 Sandy Hook
 Captain Hook
 Tim Cook
@@ -665,7 +671,7 @@ Milwaukee County
 Fairfield County
 Bergen County
 Shelby County
-Dupage County
+DuPage County
 Gwinnett County
 Erie County
 Prince George’s County
@@ -673,6 +679,7 @@ Prince George's County
 Kern County
 Hartford County
 Pierce County
+San Francisco
 San Francisco County
 Macomb County
 Hidalgo County
@@ -718,17 +725,6 @@ John Lennon
 Sam Hunt
 Gordon Brown
 Brown University
-German Shepherds
-Labrador Retriever
-Labrador Retrievers
-Golden Retriever
-Golden Retrievers
-French Bulldog
-French Bulldogs
-Yorkshire Terrier
-Yorkshire Terriers
-German Shorthaired Pointer
-German Shorthaired Pointers
 Hong Kong
 French Guiana
 French Polynesia
@@ -748,7 +744,7 @@ Union Station
 Riverside Line
 Alameda Street
 Union of South American Nations
-United States House of Representatives
+House of Representatives
 United States Capitol
 National Mall
 Lincoln Memorial
@@ -923,7 +919,6 @@ Joan of Arc
 Dwight D. Eisenhower
 Apple Inc.
 Osama bin Laden
-Max Planck
 #The Simpsons
 Frank Lloyd Wright
 Ottoman Empire
@@ -1032,8 +1027,6 @@ T. S. Eliot
 Xi Jinping
 Vietnam War
 One Thousand and One Nights
-2014 FIFA World Cup
-Great Lakes
 Anne Frank
 Ho Chi Minh
 Alexander Graham Bell
@@ -1043,7 +1036,6 @@ International System of Units
 Commonwealth of Nations
 #The Doors
 Port Louis
-2018 FIFA World Cup
 German Democratic Republic
 Northern Mariana Islands
 West Bengal
@@ -1061,7 +1053,6 @@ Gaza Strip
 Persian Gulf
 First Industrial Revolution
 Bradley Cooper
-2010 FIFA World Cup
 Common Ostrich
 Martin Van Buren
 Bronze Age
@@ -1283,7 +1274,6 @@ European Parliament
 Republic of Mordovia
 #The Godfather
 Human Development Index
-2006 FIFA World Cup
 West Bank
 Nobel Peace Prize
 Sea of Marmara
@@ -1370,7 +1360,7 @@ Community of Madrid
 Gregory I
 Pius XI
 Mammuthus (Actual Líder, Sol Campbell)
-Neolithic era
+#Neolithic era
 Compact Disc
 Eurasian Jay
 John Kerry
@@ -1416,7 +1406,7 @@ International Organization for Standardization
 Ayn Rand
 Federal University of Minas Gerais
 #Google Search
-#The Big Bang Theory
+Big Bang Theory
 John Galsworthy
 Ivan IV Vasilyevich
 Isaac Bashevis Singer
@@ -1433,6 +1423,7 @@ Upper Austria
 Rosa Parks
 Sea of Okhotsk
 Selassie I Haile
+Roman numeral
 Roman numerals
 Mehmed the Conqueror
 Jefferson City
@@ -1459,7 +1450,6 @@ European Space Agency
 International Atomic Energy Agency
 Henri Becquerel
 Southern Hemisphere
-Good Friday
 Leaning Tower of Pisa
 Battle of Stalingrad
 Maluku Islands
@@ -1541,6 +1531,7 @@ Universal Music
 Warner Music Group
 Warner Music
 Sony Music
+Sony Music Studios
 React Native
 Microsoft Cognitive Services
 Brothers Grimm
@@ -1641,3 +1632,668 @@ Munich Security Conference
 Jetstar Airways
 Etihad Airways
 New York University
+Lincoln Square
+Trump Castle
+Trump Plaza
+Trump University
+Trump Foundation
+Nest Hub
+Western Cape
+Cape Province
+Golden Globe Award
+Golden Globe Awards
+Chromebook Flip
+Magna Carta
+Abu Dhabi
+Al Jazeera
+Alpha Centauri
+Charlie Hebdo
+Costa Rica
+El Niño
+Ho Chi Minh
+Kuala Lumpur
+Rio Grande
+São Luis
+São Paulo
+São Tomé
+São Tomé and Príncipe
+Taj Mahal
+Berkshire Hathaway
+Boston Consulting Group
+Cambridge Information Group
+Cambridge Semantics
+Charles Schwab
+Dow Jones
+Ernst & Young
+Ernst and Young
+Morgan Stanley
+Weight Watchers
+Wolfram Research
+Zurich Insurance
+El Cajon
+El Dorado
+El Loco
+El Paso
+Deutsche Telekom
+Axel Springer
+Carl Zeiss
+Yom Kippur
+Der Spiegel
+La Paz
+Quintana Roo
+Nuevo León
+Royal Canin
+Royal Air Maroc
+Addis Ababa
+Costa Ricans
+Buenos Aires
+Zagros Mountains
+Zagros Airlines
+Zagros TV
+Coffs Harbour
+Conrad Connect
+Credit Suisse
+Machu Picchu
+Absolut Vodka
+Roger Federer
+Motorola Razr
+Saudi Aramco
+La Mirada
+Demi Moore
+Priti Patel
+Adam Schiff
+PlayStation Vue
+El Segundo
+El Monte
+El Nido
+El Paso de Robles
+El Paso Robles
+El Portal
+El Rancho
+El Rio
+El Segundo
+El Sobrante
+El Verano
+El Brazil
+El Camino Angosto
+El Campo
+El Castillo
+El Rito
+El Duende
+El Cerro
+El Valle de Arroyo Seco
+El Cenizo
+El Chaparral
+Spiegel Online
+Spiegel Magazine
+Billie Eilish
+Southern Pacific Bank
+Katy Perry
+Hagia Sophia
+Port au Prince
+Elmore County
+Richland County
+Leonardo da Vinci
+Los Angeles Dodgers
+St. Louis Cardinals
+Boston Red Sox
+Chicago Cubs
+Houston Astros
+Atlanta Braves
+Washington Nationals
+Los Angeles Angels
+Cincinnati Reds
+Toronto Blue Jays
+Minnesota Twins
+Philadelphia Phillies
+Chicago White Sox
+Milwaukee Brewers
+San Francisco Giants
+Cleveland Indians
+Tampa Bay Rays
+Detroit Tigers
+San Diego Padres
+Oakland Athletics
+Pittsburgh Pirates
+Baltimore Orioles
+Seattle Mariners
+Arizona Diamondbacks
+Kansas City Royals
+Miami Marlins
+Colorado Rockies
+Detroit Pistons
+Los Angeles Lakers
+Golden State Warriors
+Boston Celtics
+Houston Rockets
+Toronto Raptors
+Miami Heat
+Los Angeles Clippers
+San Antonio Spurs
+Milwaukee Bucks
+New York Knicks
+Oklahoma City Thunder
+New Orleans Pelicans
+Cleveland Cavaliers
+Chicago Bulls
+Portland Trail Blazers
+Brooklyn Nets
+Phoenix Suns
+Denver Nuggets
+Atlanta Hawks
+Minnesota Timberwolves
+Washington Wizards
+Orlando Magic
+Memphis Grizzlies
+Indiana Pacers
+Charlotte Hornets
+Indianapolis Olympians
+Cleveland Gladiators
+Indianapolis Jets
+St. Louis Stallions
+Tampa Bay Buccaneers
+Cincinnati Bengals
+Jacksonville Jaguars
+Indianapolis Colts
+Los Angeles Chargers
+Atlanta Falcons
+New York Jets
+Detroit Lions
+Carolina Panthers
+Denver Broncos
+Washington Redskins
+Arizona Cardinals
+Miami Dolphins
+Oakland Raiders
+Cleveland Browns
+Kansas City Chiefs
+Baltimore Ravens
+Tennessee Titans
+Houston Texans
+Buffalo Bills
+Green Bay Packers
+New Orleans Saints
+Dallas Cowboys
+Minnesota Vikings
+Philadelphia Eagles
+New York Stock Exchange
+Malaysia Airlines
+Beijing Capital International Airport
+Gulf of Siam
+Gulf of Thailand
+Gulf of California
+Gulf of Suez Rift
+Toronto Maple Leafs
+Montreal Canadiens
+Edmonton Oilers
+Vancouver Canucks
+Boston Bruins
+Pittsburgh Penguins
+New York Rangers
+Chicago Blackhawks
+Calgary Flames
+Washington Capitals
+Winnipeg Jets
+Detroit Red Wings
+Philadelphia Flyers
+St. Louis Blues
+Colorado Avalanche
+Buffalo Sabres
+Vegas Golden Knights
+Tampa Bay Lightning
+New York Islanders
+San Jose Sharks
+Nashville Predators
+Dallas Stars
+Los Angeles Kings
+Ottawa Senators
+New Jersey Devils
+Arizona Coyotes
+Columbus Blue Jackets
+Carolina Hurricanes
+Anaheim Ducks
+Florida Panthers
+San Jose
+San José
+Brooklyn College
+Liberty University
+California State University
+University of Central Florida
+University of Maryland
+Florida International University
+University of Florida
+University of Minnesota
+University of Texas
+University of South Florida
+Georgia State University
+Texas A&M University
+Arizona State University
+Indiana University
+Michigan State University
+Cape Coral
+Cape Cod
+Cape Canaveral
+Cape Breton Island
+Brevard County
+Cape Kennedy
+British Armed Forces
+British Medical Journal
+British Overseas Territories
+Cape Sable Island
+University of London
+University of Manchester
+Open University in England
+University College London
+University of Birmingham
+Manchester Metropolitan University
+University of Nottingham
+University of Leeds
+Sheffield Hallam University
+Cardiff University
+University of Edinburgh
+Coventry University
+King's College London
+King’s College London
+University of Sheffield
+University of Leicester
+University of Glasgow
+Dow Jones Industrial
+North Bergen
+Windows Media Player
+Windows Movie Maker
+Wu Tang Clan
+Ed Sheeran
+Ho Chi Minh
+San Antonio
+Des Moines
+Transylvania County
+MTV Movie Awards
+MTV Video Music Awards
+Bollywood Movie Awards
+British Academy Film Awards
+American Movie Awards
+National Movie Awards
+Royal Festival Hall
+Eastern Cape
+Harlem River Drive
+Harlem River
+Charles River
+Notre Dame
+Mercedes Benz
+Kuala Lumpur
+El Salvador
+Burkina Faso
+Russian Federation
+Guinea Bissau
+San Marino
+Saudi Arabia
+Saudi Arabian
+Sri Lanka
+St. Lucia
+Windows Admin Center
+Credit Agricole
+Crédit Agricole
+Credit Suisse
+League of Legends
+Sin City
+Elijah Wood
+Cannes Film Festival
+Frank Sinatra
+Frank Ocean
+Frank Gore
+Frank Zappa
+Frank Lloyd Wright
+Goldman Sachs
+Drake University
+World Economic Forum
+Beyond Meat
+Sunday River
+Piers Morgan
+Black Wall Street
+Jeff Sessions
+Gordon Beach
+Westmoreland County
+Sierra Nevada
+Glen Ridge
+Ridge Racer
+Elder Scrolls
+Counter Strike
+Dungeon Fighter
+Candy Crush
+Dragon Oath
+Team Fortress
+Metal Slug Defense
+Black Desert Online
+Fantasy Westward Journey
+Pac-Man Doodle
+Screen Actors Guild
+Source Sans Pro
+Pluto Sans
+FF Meta
+Seven Nation Army
+Knight Rider
+Silverstone
+Paul Brown Stadium
+MetLife Stadium
+Lucas Oil Stadium
+Wembley Stadium
+Toronto Blueshirts
+Canadian Tire Centre
+Bell Centre
+American Airlines Center
+Stanley Cup
+Tim Hortons
+Eastern Time Zone
+Eastern Standard Time
+Eastern Daylight Time
+Western Standard Time
+Central Standard Time
+Western European Time
+Greenwich Mean Time
+Western European Summer Time
+Central European Time
+Central European Summer Time
+Eastern European Time
+Ted Bundy
+Vincent van Gogh
+Ted Cruz
+Ted Kennedy
+Bugs Bunny
+Colleton County
+Yad Vashem
+Culver City
+Looney Tunes
+Deepwater Horizon
+Osage County
+Estero Bay
+Daly City
+San Mateo
+San Bruno
+Earl Grey
+Guinness World Records
+Forrest Gump
+Forest Whitaker
+Forest Hills Stadium
+Rockaway Beach
+Gears of War
+Forge of Empires
+Ariana Grande
+Alicia Keys
+Royal Philharmonic Orchestra
+South China Morning Post
+Osaka Bay
+Kobe Bryant
+French Montana
+Mein Kampf
+San Miguel
+Barack Obama
+University of Hawaii
+Vancouver Island
+Altamonte Springs
+Belo Horizonte
+Corpus Christi
+Sabre City
+Salmon Creek
+Salton City
+Salton Sea Beach
+San Antonio Heights
+San Andreas
+San Anselmo
+San Benito
+San Benito County
+San Bernardino
+San Buenaventura
+San Carlos
+San Diego
+San Clemente
+San Dimas
+San Fernando
+San Francisco International Airport
+San Geronimo
+Marin County
+San Gregorio
+San Jacinto
+San Joaquin
+San Marin
+San Pedro
+Santa Barbara
+Santa Barbara County
+Santa Clara
+Santa Cruz
+Santa Cruz County
+Santa Monica
+Santa Maria
+Saratoga Springs
+Chula Vista
+Moreno Valley
+Huntington Beach
+Santa Ana
+Santa Ana River
+Santa Clarita
+Garden Grove
+Santa Rosa
+Rancho Cucamonga
+Thousand Oaks
+Elk Grove
+Simi Valley
+West Covina
+Mission Viejo
+San Leandro
+Billie Eilish
+Lil Nas X
+San Marcos
+Citrus Heights
+Buena Park
+Buena Vista
+Buena Vista Social Club
+Buena Vista County
+Radisson Blu
+Mohammed bin Salman
+Villa Rica
+Blake Lively
+Learn’d Astronomer
+Learn'd Astronomer
+Rutgers Law School
+Clermont County
+P. Diddy
+Encyclopædia Britannica
+Mike Bloomberg
+Palo Cedro
+Palo Pinto
+Palo Pinto County
+Matt Damon
+Demi Lovato
+Laguna Beach
+Laguna Niguel
+Magna Graecia
+Den Haag
+Charles de Gaulle
+Alfa Romeo
+Rancho Cucamonga
+Rancho Cordova
+Rancho Mirage
+Rancho Santa Margarita
+Rancho Santa Fe
+Santa Fe
+Rancho Palos Verdes
+Rancho Peñasquitos
+Jacinto City
+Grayson County
+Apollo 1
+Apollo 10
+Apollo 11
+Apollo 15
+Apollo 17
+Apollo 8
+Apollo 12
+Chaves County
+Bel Ami
+Bel Canto
+Bel Group
+Eau Claire
+Campo Grande
+Loch Ness
+Angelina Jolie
+Ellicott City
+West Sussex
+East Sussex
+Holladay House
+Holladay Park
+Carleton University
+Carleton College
+Bastrop County
+Woodson County
+Moulin Rouge
+Edmonson County
+Claremont McKenna College
+Caledonian Canal
+Addison County
+Winslow Township
+Townshend State Park
+Painesville Township
+Latah County
+Latah Creek
+Spokane County
+Whitman County
+Stevens County
+Greenbrier County
+Warrick County
+North Glengarry
+Spotsylvania County
+Bergen County
+Wittenberg University
+Whittaker Chambers
+Stockport County
+Sawtooth National Forest
+Sawtooth National Recreation Area
+Sawtooth Wilderness
+Minden Hills
+Haliburton County
+Kearney County
+Laurens County
+Forsyth County
+Icefall Peak
+Canadian Rockies
+Canadian Rocky Mountains
+British Columbia
+Fort Victoria
+Broadview Heights
+Beachwood Canyon
+Shrewsbury Abbey
+Shrewsbury Township
+Pelham Bay Park
+Michael Bay
+Vin Diesel
+Joaquín Phoenix
+Hang Seng Index
+Hang Seng
+Sand Hill Road
+Hang Seng Index
+SSE Composite Index
+SSE Composite
+Shanghai Composite
+Bank of China
+Kruger National Park
+Orchard Beach
+Rodman's Neck
+Rodman’s Neck
+Eastchester Bay
+Saybrook University
+Saybrook College
+Whitney Avenue
+American Apparel
+Custer County
+Nye County
+Gasconade County
+Boeuf River
+Boeuf Township
+Gasconade River
+Dauphin County
+LaGuardia Airport
+Lightroom
+Peppa Pig
+Monash Freeway
+Monash University
+Gatwick Airport
+Heathrow Airport
+Farnsworth House
+Crenshaw County
+Cambria County
+Bollinger County
+Stillwater County
+Schrader Creek
+Bradford County
+Sullivan County
+Lycoming County
+Northumberland County
+Wyoming County
+Luzerne County
+Columbia County
+Rensselaer County
+Overton Park
+Alachua County
+Lithia Springs
+Finney County
+Castle Biosciences
+Avril Lavigne
+Margate City
+Lowndes County
+Ligurian Sea
+Iredell County
+Doylestown Central Park
+Doylestown Township
+Cockburn Town
+Cabell County
+Thurston County
+Skagit County
+Otero County
+Wolfram Mathematica
+Wolfram Research
+Wolfram Alpha
+Kenilworth Road
+Anfield Road
+Haverford College
+Grainger College
+Grainger County
+Colchester United
+Watford City
+Switzer Canyon
+Swartz Creek
+Seabrook Island
+Boone County
+Ray County
+Ray Charles
+Ray Lewis
+Electronic Arts
+Humpty Dumpty
+Butler County
+Renville County
+Ballon d'Or
+Ballon d’Or
+FIFA Club World Cup
+UEFA Super Cup
+UEFA Europa League
+Serie A
+Serie B
+Pulaski County
+Albemarle County
+Nelson County
+Elkhart County
+LaGrange County
+Menard County
+Mayne Island
+Mayne Coaches
+Mayne Group
+Mariposa County
+Amador County
+Glenn County
+Belmont County
+Hempstead County
+Hackensack River
+Damietta University
+Cullman County
+Carteret County
+Chaffee County
+Calloway County
+Bitterroot River
+Bitterroot Mountains

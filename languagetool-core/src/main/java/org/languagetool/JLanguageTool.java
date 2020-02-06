@@ -291,7 +291,7 @@ public class JLanguageTool {
       throw new RuntimeException("Could not activate rules", e);
     }
     this.cache = cache;
-    descProvider = new ShortDescriptionProvider(language);
+    descProvider = new ShortDescriptionProvider();
   }
 
   /**
@@ -492,7 +492,7 @@ public class JLanguageTool {
     LanguageModel languageModel = language.getLanguageModel(indexDir);
     if (languageModel != null) {
       ResourceBundle messages = getMessageBundle(language);
-      List<Rule> rules = language.getRelevantLanguageModelRules(messages, languageModel);
+      List<Rule> rules = language.getRelevantLanguageModelRules(messages, languageModel, userConfig);
       userRules.addAll(rules);
       updateOptionalLanguageModelRules(languageModel);
     }
@@ -923,7 +923,7 @@ public class JLanguageTool {
     for (SuggestedReplacement replacement : replacements) {
       SuggestedReplacement newReplacement = new SuggestedReplacement(replacement);
       if (replacement.getShortDescription() == null) {  // don't overwrite more specific suggestions from the rule
-        String descOrNull = descProvider.getShortDescription(replacement.getReplacement());
+        String descOrNull = descProvider.getShortDescription(replacement.getReplacement(), language);
         newReplacement.setShortDescription(descOrNull);
       }
       extended.add(newReplacement);

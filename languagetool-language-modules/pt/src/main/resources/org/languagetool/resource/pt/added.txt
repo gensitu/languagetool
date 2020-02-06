@@ -206,6 +206,7 @@ areolar	areolar	AQ0CS0
 aríete	aríete	NCMS000
 aríetes	aríete	NCMP000
 Arizona	Arizona	NPMSG00
+Armanda	Armanda	NPFS000
 aromaterapia	aromaterapia	NCFS000
 aromatizador	aromatizador	AQ0MS0
 aromatizador	aromatizador	NCMS000
@@ -363,6 +364,8 @@ buldózer	buldózer	NCMS000
 buldózeres	buldózer	NCMP000
 byte	byte	NCMS000
 bytes	byte	NCMP000
+cagueiro	cagueiro	NCMS000
+cagueiros	cagueiro	NCMP000
 cablagem	cablagem	NCFS000
 caldeireiro	caldeireiro	NCMS000
 camaronês	camaronês	AQ0MS0
@@ -1107,6 +1110,7 @@ IADE	IADE	NPMS000
 ião	ião	NCMS000
 iões	ião	NCMP000
 Ibama	Ibama	NPMS000
+IBAN	IBAN	NPMS000
 identitária	identitário	AQ0FS0
 identitárias	identitário	AQ0FP0
 identitário	identitário	AQ0MS0
@@ -1243,6 +1247,8 @@ jusnaturalismos	jusnaturalismo	NCMP000
 juvenil	juvenil	NCCS000
 karaoke	karaoke	NCMS000
 Kevin	Kevin	NPMS000
+khmer	khmer	AQ0CS0
+khmer	khmer	NCCS000
 Laden	Laden	NPMS000
 Lajes	Lajes	NPCNG00
 LanguageTool	LanguageTool	NPMFO00_
@@ -1561,6 +1567,11 @@ pega	pegar	VMP00SF
 pegas	pegar	VMP00PF
 pego	pegar	VMP00SM
 pegos	pegar	VMP00PM
+peida	peida	NCFS000
+peida	peidar	VMIP3S0
+peida	peidar	VMM02S0
+peidas	peida	NCFP000
+peidas	peidar	VMIP2S0
 penálti	penálti	NCMS000
 penáltis	penálti	NCMP000
 pentacampeonato	pentacampeonato	NCMS000
@@ -1687,6 +1698,8 @@ quórum	quórum	NCMS000
 rafting	rafting	NCMS000
 raide	raide	NCMS000
 raides	raide	NCMP000
+ranking	ranking	NCMS000
+rankings	ranking	NCMP000
 rastreamento	rastreamento	NCMS000
 rc	rc	NCMS000
 reactividade	reactividade	NCFS000
@@ -2084,6 +2097,7 @@ vagina	vagina	NCFS000
 Vales	Vales	NPMPG00
 vanguardismo	vanguardismo	NCMS000
 vanguardismos	vanguardismo	NCMP000
+Vargas	Vargas	NPCNS00
 vedante	vedante	AQ0CS0
 vedante	vedante	NCMS000
 vedantes	vedante	AQ0CP0
@@ -2166,6 +2180,10 @@ yuans	yuan	NCMP000
 Z80	Z80	NCMN000
 zapatista	zapatista	AQ0CS0
 zapatista	zapatista	NCCS000
+zelandês	zelandês	AQ0MS0
+zelandês	zelandês	NCMS000
+zelandeses	zelandês	AQ0MP0
+zelandeses	zelandês	NCMP000
 # Infinitivos comprimidos em falta VMX0000
 abduzi	abduzir	VMX0000
 abluí	abluir	VMX0000
@@ -2662,9 +2680,33 @@ raëliano	raëliano	AQ0MS0
 raëliano	raëliano	NCMS000
 raëlianos	raëliano	AQ0MP0
 raëlianos	raëliano	NCMP000
+# KARATE/MARTIAL ARTS
+Chojun	Chojun	NPMS000
+Goju-ryu	Goju-ryu	NPMS000
+Goju-Ryu	Goju-Ryu	NPMS000
+IOGKF	IOGKF	NPFS000
+Karate-Do	Karate-Do	NPMS000
+Miyagi	Miyagi	NPMS000
+Shito-ryu	Shito-ryu	NPMS000
+Shito-Ryu	Shito-Ryu	NPMS000
+Shotokai	Shotokai	NPMS000
+Shotokan	Shotokan	NPMS000
+Suissas	Suissas	NPMS000
+Wado-ryu	Wado-ryu	NPMS000
+Wado-Ryu	Wado-Ryu	NPMS000
 # Proper Names
+Angelina	Angelina	NPFS000
+Archdeacon	Archdeacon	NPMS000
 Aznavour	Aznavour	NPMS000
 Celeron	Celeron	NPMS000
+Constantina	Constantina	NPFS000
+Érico	Érico	NPMS000
+Jovino	Jovino	NPMS000
 Khachaturian	Khachaturian	NPMS000
+Mikhail	Mikhail	NPMS000
 Multicare	Multicare	NPFS000
 Nara	Nara	NPFS000
+Nélio	Nélio	NPMS000
+Pushkin	Pushkin	NPMS000
+Vítor	Vítor	NPMS000
+Worten	Worten	NPFS000

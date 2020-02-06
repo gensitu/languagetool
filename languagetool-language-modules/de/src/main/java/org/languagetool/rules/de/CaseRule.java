@@ -72,6 +72,10 @@ public class CaseRule extends Rule {
   // also see case_rule_exceptions.txt:
   private static final List<List<PatternToken>> ANTI_PATTERNS = Arrays.asList(
     Arrays.asList(
+      regex("erste[nr]?"),
+      csToken("Hilfe")
+    ),
+    Arrays.asList(
       // Names
       regex("Alfred|Emanuel|Günter|Immanuel|Johannes|Karl|Ludvig|Anton|Peter|Robert|Rolf"),
       csToken("Nobel")
@@ -103,6 +107,10 @@ public class CaseRule extends Rule {
       regex(".*")
     ),
     Arrays.asList(
+      regex("Roten?"),
+      regex("Bete")
+    ),
+    Arrays.asList(
       // see https://www.duden.de/suchen/dudenonline/u-f%C3%B6rmig
       regex("[A-Z]-förmig(e[mnrs]?)?")
     ),
@@ -115,13 +123,13 @@ public class CaseRule extends Rule {
     ),
     // names with english adjectives
     Arrays.asList(
-      regex("Digital|Global|Smart|International|Trade|Private|Live|Urban|Man|Total|Native"),
+      regex("Digital|Global|Smart|International|Trade|Private|Live|Urban|Man|Total|Native|Imperial"),
       pos("UNKNOWN")
     ),
     // names with english adjectives
     Arrays.asList(
       pos("UNKNOWN"),
-      regex("Digital|Global|Smart|International|Trade|Private|Live|Urban|Man|Total|Native")
+      regex("Digital|Global|Smart|International|Trade|Private|Live|Urban|Man|Total|Native|Imperial")
     ),
     Arrays.asList(
       // see http://www.lektorenverband.de/die-deutsche-rechtschreibung-was-ist-neu/
@@ -276,6 +284,11 @@ public class CaseRule extends Rule {
      csToken("Aus"),
      posRegex("^PRP:.+|VER:[1-3]:.+")
     ),
+    /*Arrays.asList(
+      // "...,die ins Nichts griff."
+      new PatternTokenBuilder().csTokenRegex("ins|ans|vors|durchs|hinters").setSkip(1).build(),
+      posRegex("^PRP:.+|VER:[1-3]:.+")
+    ),*/
     Arrays.asList(
      // "Bündnis 90/Die Grünen"
      csToken("90"),
@@ -373,6 +386,28 @@ public class CaseRule extends Rule {
     Arrays.asList(
       token("im"),
       csToken("Aus")
+    ),
+    Arrays.asList(
+      token("im"),
+      csToken("Ganzen")
+    ),
+    Arrays.asList( // Die Top Fünf (https://www.korrekturen.de/forum.pl/md/read/id/73791/sbj/top-top-fuenf-fuenf/)
+      csToken("Top"),
+      pos("ZAL")
+    ),
+    Arrays.asList( // Die Top Ten (https://www.korrekturen.de/forum.pl/md/read/id/73791/sbj/top-top-fuenf-fuenf/)
+      csToken("Top"),
+      csToken("Ten")
+    ),
+    Arrays.asList(
+      csToken("Just"),
+      token("in"),
+      csToken("Time")
+    ),
+    Arrays.asList( // Hey Süßer, 
+      regex("Hey|Hi|Hallo"),
+      regex("Süßer?|Hübscher?"),
+      pos("PKT")
     )
   );
 
@@ -409,6 +444,7 @@ public class CaseRule extends Rule {
     "Mag",   // "Mag. Helke Müller"
     "Studierende",
     "Suchbegriffen",
+    "Plattdeutsch",
     "Wallet",
     "Str",
     "Auszubildende",
@@ -435,6 +471,9 @@ public class CaseRule extends Rule {
     "Beschäftigten",
     "Bekannter",
     "Bekannte",
+    "Bevollmächtigte",
+    "Bevollmächtigter",
+    "Bevollmächtigten",
     "Brecht",
     "Tel",  // Tel. = Telefon
     "Unschuldiger",
@@ -516,7 +555,12 @@ public class CaseRule extends Rule {
     "Herzöge",
     "Herzögen",
     "Hinfahrt",
-    "Hundert",   // je nach Kontext groß (TODO) 
+    "Hilfsstoff",
+    "Hilfsstoffe",
+    "Hundert",   // groß und klein möglich 
+    "Zehntausend",   // groß und klein möglich 
+    "Hunderttausend",   // groß und klein möglich 
+    "Hyperwallet", // Anglizismus
     "Ihnen",
     "Ihr",
     "Ihre",
@@ -537,6 +581,7 @@ public class CaseRule extends Rule {
     "Langem",
     "Längerem",
     "Le",    // "Le Monde" etc
+    "Lehrlingsunter­weisung",
     // "Leichter", // Leichter = ein Schiff in oben offener Bauweise ohne Eigenantrieb
     "Letzt",
     "Letzt",      // "zu guter Letzt"
@@ -577,6 +622,8 @@ public class CaseRule extends Rule {
     "Schuft",
     "Schufte",
     "Schuld",
+    "Schwangere",
+    "Schwangeren",
     "Schwärme",
     "Schwarzes",    // Schwarzes Brett
     "Sie",

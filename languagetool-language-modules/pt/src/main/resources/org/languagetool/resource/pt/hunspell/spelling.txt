@@ -15,6 +15,8 @@ AmigaOS
 Andrew
 app
 apps
+Archdeacon
+Armanda
 art.º
 Ashley
 Ashtar
@@ -30,6 +32,8 @@ bayesiana
 bayesiano
 bin
 Bryon
+cagueiro
+cagueiros
 Canelhas
 Celeron
 Chasqueira
@@ -44,6 +48,7 @@ criamo-los
 criámo-lo
 criámo-los
 Crowley
+CRT
 Daesh
 Daguerre
 DALnet
@@ -56,9 +61,11 @@ diff
 diffs
 DNA
 Dockery
+dói-dóis
 Echelon
 ESR
 estâmina
+Exmo
 Falagueira
 forecast
 Fukuyama
@@ -84,6 +91,7 @@ https
 Kevin
 Khachaturian
 Khomeini
+khmer
 kyu
 Laden
 LanguageTool
@@ -93,6 +101,7 @@ LTS
 Mac
 MailChimp
 management
+Mikhail
 mnemotécnica
 mnemotécnicas
 mnemotécnico
@@ -102,12 +111,16 @@ multiagente
 Multicare
 Nara
 Nathalia
+OpenPGP
 Ortins
 Outlook
+peida
+peidas
 PGP
 Pootle
 PowerPC
 premio
+Pushkin
 puta
 putas
 Python
@@ -120,8 +133,6 @@ Rolanda
 Ronald
 Ruhollah
 SeaMonkey
-sensei
-senseis
 SSL
 Suméria
 supervisionamento
@@ -132,11 +143,15 @@ Transifex
 Trudeau
 Twitter
 Unabomber
+Vargas
 von
 web camera
 web cameras
+Worten
 XYZ
 Z80
+zelandês
+zelandeses
 # Abreviaturas CTT https://pt.wikipedia.org/wiki/Lista_de_abreviaturas_recomendadas_pelos_CTT
 dto
 esq
@@ -8846,15 +8861,75 @@ raëlianos
 # Months abbreviated:
 # https://pt.wikipedia.org/wiki/Lista_de_abreviaturas  ("words with 4 letters shouldn't receive 3 letters abbreviations")
 # https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/as-abreviaturas-dos-meses-dos-anos-segundo-o-novo-acordo-ortografico/30221 ("but some entities use them")
-jan.
-fev.
-mar.
-abr.
-mai.
-jun.
-jul.
-ago.
-set.
-out.
-nov.
-dez.
+jan
+fev
+mar
+abr
+mai
+jun
+jul
+ago
+set
+out
+nov
+dez
+# KARATE/MARTIAL ARTS
+Budokan
+Chojun
+Goju-ryu
+Goju-Ryu
+IOGKF
+Higaonna
+karategi
+Karate-Do
+kata
+Kenwa
+kobudo
+Mabuni
+Miyagi
+Morio
+Okinawa
+sensei
+shidoshi
+Shito-ryu
+Shito-Ryu
+Shotokai
+Shotokan
+Suissas
+Wado-ryu
+Wado-Ryu
+# PEOPLE/PROPER NAMES
+Angelina
+Constantina
+Érico
+Jovino
+Nélio
+Seiceira
+Vítor
+# ALPHABET LETTERS
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
